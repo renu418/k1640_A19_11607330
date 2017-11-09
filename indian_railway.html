@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="images.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="railway_stylesheet.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Indian Railway-Lifeline To Nation</title>
+    <script type="text/javascript" src="railway_script.js"></script>
+</head>
+<body style="background:url(bg5.jpg);">
+	<div class="container">
+		<div class="clearfix">
+			<div class="header">
+				<div class="slider_container">
+					<div class="slider">
+						<div class="slide1"></div>
+						<div class="slide2"></div>
+						<div class="slide3"></div>
+						<div class="slide4"></div>
+						<div class="slide5"></div>
+					</div>
+					<div class="logo">
+						<a href="home.html"><img src="Indian_Railway.png" style="width: 150px; height: 150px;"></a>
+					</div>
+					<div class="title">
+						<h1 style="font-size: 50px;font-weight:bold;">Indian Railway</h1>
+						<h4 style="font-size: 26px">Lifeline To The Nation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+
+		<div class="topnav">
+		    <ul class="navbar">
+		      <li><a href="#_home" 		target="_self" onclick="ReloadHome()" 	title="Home" class="home_icon"><img src="home.svg" height="25px" width="25px"></a></li>
+		      <li><a href="#_reserve" 	target="_self" onclick="Reserve()" 		title="Reservation">RESERVATION</a></li>
+		      <li><a href="#_schedule" 	target="_self" onclick="Schedule()" 	title="Train Schedule">TRAIN SCHEDULE</a></li>
+		      <li><a href="#_fare" 		target="_self" onclick="Fare()" 		title="Ticket Fare">TICKET FARE</a></li>
+		      <li><a href="#_feedback" 	target="_self" onclick="Feedback()" 	title="Feedback">FEEDBACK</a></li>
+		      <li><a href="#_about" 	target="_self" onclick="About()"		title="About">ABOUT</a></li>
+		      <li style="float: right;"><a href="#_contact" 	target="_self" onclick="Contact()"		title="Contact">CONTACT</a></li>
+		    </ul>
+		</div>
+		<div class="welcome">
+				<marquee><b>INDIAN RAILWAY | ONLINE RAILWAY RESERVATION</b></marquee>
+		</div>
+		<div class="left" id="left_nav">
+			<div class="nav_t">Director</div>
+			<div class="nav_c">Contents</div>
+			<div class="nav_t">Internal E-Services</div>
+			<div class="nav_c">
+			  <ul class="nav_c_list">
+				<div><li><a href="#_c" onclick="Wait()">Train Tracking Monitoring System</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Train Information Display System</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Railway Corporate Email List	  </a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Ticket Book/Buy through SMS	  </a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Railway E-Ticketing Service     </a></li></div>
+			  </ul>
+			</div>
+			<div class="nav_t">Central E-Services</div>
+			<div class="nav_c">
+			  <ul class="nav_c_list">
+				<div><li><a href="#_c" onclick="Wait()">Online Applications</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Records</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Records Mobile Apps</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Online Passport Application</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Inheritance Calculator</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Visa Verification</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Birth/Death Registration</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Online e-Tax Payment</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">NID Information Update</a></li></div>
+			  </ul>
+			</div>
+			<div class="nav_t">Important Links</div>
+			<div class="nav_c">
+			  <ul class="nav_c_list">
+				<div><li><a href="#_c" onclick="Wait()">Ministry of Railway</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">National Information Web Portal</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Ministry of Public Administration</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Public Service Comission</a></li></div>
+				<div><li><a href="#_c" onclick="Wait()">Service Portal</a></li></div>
+			  </ul>
+			</div>
+			<div class="nav_t">Innovation Corner</div>
+			<div class="nav_c">No Contents Available</div>
+			<div class="nav_t">Social Media</div>
+			<div class="nav_c" id="social_div_c">
+				<div class="social">
+					<a href="#wait" onclick="Wait()"><img src="facebook_icon.png" alt="facebook"></a>
+				</div>
+				<div class="social">
+					<a href="#wait" onclick="Wait()"><img src="twitter_icon.png" alt="twitter"></a>
+				</div>
+				<div class="social">
+					<a href="#wait" onclick="Wait()"><img src="google_plus_icon.png" alt="google plus"></a>
+				</div>
+			</div>
+		</div>
+		<div class="content_container" id="con_container" style="overflow-x: auto;margin-left: 26%; ">
+		  	<div id="home">
+				<center><h2>Travel The World</h2>
+					<h4>Re-discover The Exotic Nature</h4></center>
+				<div class="home_art_photo">
+				<p class="d">
+				Now Enjoy The Booking <br>
+				In Your Home
+				</p>
+				</div>
+
+				<h3> Online Ticketing</h3>
+				<p>
+				It is known for changing the face of railway ticketing in India. It pioneered internet-based rail ticket booking through its website, as well as from the mobile phones via WiFi, GPRS or SMS. In addition to e-tickets, Indian Railways  also offers I-tickets that are basically like regular tickets except that they are booked online and delivered by post. The tickets PNR status is also made available. Commuters on the Mumbai Suburban Railway can also book season tickets through the website. It has also launched a loyalty program called Shubh Yatra for frequent travellers.<p> <br>
+				<h3>Tourism</h3>
+				<p>Indian Railways also organises budget and deluxe package tours for domestic and foreign tourists. A popular tourism package for budget tourists covering important tourist destinations across India is "Bharat Darshan". Luxury tourism packages are also available, that involve special luxury trains such as Buddhist Circuit Train and Maharajas' Express operation.
+				</p><br>
+				<h3> Tatkal Booking</h3>
+				<p>
+				Under the Tatkal scheme, passengers who plan their journey at short notice can book their tickets in almost all Mail/Express trains through the Indian railways internet portal. The booking starts at 10:00 AM daily for AC coach reservation and for NON-AC timing is residual to 11.00 AM, one day prior to the departure of the train from source station.
+				</p><br>
+				<h4>BIR  Helpline</h4>
+				<p>
+				You can reach BIR through their helpline numbers. There are a bunch of customer care numbers including paid and toll free numbers.This BIR Customer Care Number facility is available 24?7 and you can address your grievances or give suggestions regarding food and catering services. The Toll free number is 1800-111-139.
+				</p>
+		  	</div>
+		  	<div id="reservation_form" style="display: none;">
+				<center><b><h2>BOOKING DETAILS<h2><b></center>
+				<form>
+					<fieldset>
+						<legend><b>BOOKING DETAILS<b></legend>
+						Date:<input type="text" name="user id"/>
+						Source:<input type="text" name="source"/>
+						Destination:<input type="text" name="destination"/>
+						<select name="dropbox">
+							<option value="1" selected>Shatabdi Express</option>
+							<option value="2">Rajdhani Express</option>
+							<option value="3">GareebRath</option>
+							<option value="4">Toofan Express</option>
+						</select><br>
+						Timing:
+						<select name="dropbox">
+							<option value="1" selected>10:00am</option>
+							<option value="2">12:00pm</option>
+							<option value="3">10:00pm</option>
+							<option value="4">12:am</option>
+						</select><br>
+						Details:
+						<textarea rows="5" cols="50" name="despcription">
+						ENTER DESCRIPTION here.....</textarea><br>
+					</fieldset>
+				</form>
+				<form>
+					<fieldset>
+						<legend><b>CUSTOMER DETAILS</b></legend>
+							Name:<input type="text"name="user id"/>
+							Gender:<br>
+							<input type="radio">Male<br>
+							<input type="radio">Female<br>
+							<input type="radio">Others<br>
+							Age:<input type="text">
+							Email:<input type="text" name="user id"/>
+							Phone no.:<input type="text" name="user id"/>
+							<input type="submit" value="Proceed to Payment" onclick="PaymentSubmit()" />
+					</fieldset>
+				</form>
+				<div id="payment">
+					Payment Type : <br>
+					<input type="radio" name="payment_type" value="Paytm">Paytm<br>
+						<div> 
+							Please Make a payment to 9912345678<br>
+							Then submit the transaction id here.<br>
+							Transaction ID:<input type="text" name="tr_id">
+						</div>
+					<input type="radio" name="payment_type" value="Internet Banking">Internet Banking<br>
+						<div>
+							Bank Name:<input type="text" name="">
+							A/C No : <input type="text" name="">
+							Amount :<input type="text" name="">
+							PIN : <input type="text" name="">
+						</div>
+					<input type="radio" name="payment_type" value="Debit/Credit Card">Debit/Credit Card<br>
+						<div>
+							<input type="radio" name="">Visa
+						</div>
+				</div>
+			</div>
+			<div id="feedback" style="display: none;">
+				<div id="feedbackform">
+					<form>
+						<fieldset>
+							<legend>Feedback Form</legend>
+							Name  :<input type="text" placeholder="Full Name">
+							Email :<input type="text" placeholder="Email ID" >
+							Cell  :<input type="text" placeholder="Cellphone Number">
+							Feedback :
+							<textarea placeholder="write feedback here..."></textarea>
+							<input type="submit" name="submit" onclick="FeedbackSubmit()">
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<div id="payment_p" style="display: none; text-align: center;">
+					<h2>Information Submitted Successfully!</h2>
+					<h4>Enjoy the trip!</h4>
+					<button id="gotohome" onclick="ReloadHome()">Go To Home</button>
+			</div>
+			<div id="feedbacksubmitted" style="display: none; text-align: center;">
+				<h2>Feedback Submitted Successfully!</h2>
+				<h4>Thank You for your valuable opinion!</h4>
+				<button id="gotohome" onclick="ReloadHome()">Go To Home</button>
+			</div>
+			<div id="schedule" style="display: none;">
+				<b><h2>Train Timetable From Jamalpur</h2></b>
+					<div>
+					  <table border="0" cellpadding="5" cellspacing="0" style="width:100%;">
+						<tbody>
+							<tr><td><strong>Intercity Trains From Amritsar </strong>:</td></tr>
+							<tr>
+								<td>
+								<table id="schedule_table" align="center">
+									<tbody>
+														<tr>
+											<th>Train No</th>
+											<th>Name</th>
+											<th>Off Day</th>
+											<th>From</th>
+											<th>Departure</th>
+											<th>To</th>
+											<th>Arrival</th>
+										</tr>
+										<tr>
+											<td>707</td>
+											<td>Amritsar Shtbdi</td>
+											<td>Monday</td>
+											<td>Amritsar</td>
+											<td>16:50</td>
+											<td>Delhi</td>
+											<td>12:40</td>
+										</tr>
+										<tr>
+											<td>708</td>
+											<td>Rajdani Express</td>
+											<td>Monday</td>
+											<td>Amritsar</td>
+											<td>16:00</td>
+											<td>Chandigarh</td>
+											<td>20:10</td>
+										</tr>
+										<tr>
+											<td>735</td>
+											<td>Shaheed Express</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>13:50</td>
+											<td>lucknow</td>
+											<td>15:00</td>
+										</tr>
+										<tr>
+											<td>736</td>
+											<td>Garib Rath Express</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>17:55</td>
+											<td>Ahmedabad</td>
+											<td>22:35</td>
+										</tr>
+										<tr>
+											<td>743</td>
+											<td>Paschim Express</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>22:31</td>
+											<td>Palampur</td>
+											<td>23:50</td>
+										</tr>
+										<tr>
+											<td>744</td>
+											<td>Amritsar Shtbdi</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>07:35</td>
+											<td>Delhi</td>
+											<td>12:30</td>
+										</tr>
+										<tr>
+											<td>745</td>
+											<td>Rajdani Express</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>21:30</td>
+											<td>Chandigarh</td>
+											<td>22:30</td>
+										</tr>
+										<tr>
+											<td>746</td>
+											<td>Shaheed Express</td>
+											<td>No</td>
+											<td>Amritsar</td>
+											<td>03:15</td>
+											<td>Lucknow</td>
+											<td>07:40</td>
+										</tr>
+
+									</tbody>
+								</table>
+								</td>
+							</tr>
+						</tbody>
+					  </table>
+					</div>
+			</div>
+			<div id="fare" style="display: none;">
+                <b><h2>About Indian Railways</h2></b>
+				<object data="White_Paper-_English.pdf?#zoom=70" type="application/pdf" width="100%" height="650"></object>
+			</div>
+			<div id="about" style="display: none;">
+				<h1 align="center">It's All About Travel</h1> <br>
+					<div class="article">
+						<div class="article_img" style="background: url(cat.jpg)no-repeat center;"></div>
+						<div>
+						<h2> Catering</h2>
+						<p>As per new Railway Catering Policy 2010(Introduced by Railways Minister Mamata Banerjee), catering services provided by IRCTC were handed over to INDIAN Railways. Now IRCTC is in charge of catering services on few trains such as All Duranto Exp, Frakkha Exp, Maitree Express (Train between INDIA and BANGLADESH)</p></div>
+					</div><br><br>
+					<div class="article">
+						<div class="article_img" style="background: url(clean1.jpg)no-repeat center;"></div>
+						<div>
+						<h2>Heigenic</h2>
+						<p>The Indian Railways in a significant step in waste management will be providing separate bins for wet and dry waste at all passenger interface areas in A1 & A category stations besides the pantry service, vending stalls and independent food stalls. In addition to instructing food vendors to appropriately bin the waste, the railway staff will also be educated on collection and disposal of the waste.</p></div>
+					</div>
+					<br>
+					
+					<ul>
+						<li>BIR's next generation E Ticketing system can book 7200 tickets per minute against the 2000 tickets per minute earlier.</li>
+						<li>Nearly 42% of customers pay for BIR booking through Internet banking & 24% use Credit/Debit cards.
+						<li>BIR reportedly working in Cash on delivery model for Railway ticket in 1oo cities. </li>
+						<li>BIR was listed top in most searched term of the year 2014 by Google India.
+						Around 1.2 Lakh people can use BIR site at one time.</li>
+						<li>BIR booked 27 tickets on first day when it was introduced in 2002. Now  days BIR book average of 5 lakh tickets per day.</li>
+						<li>BIR generated revenue of 15,000 crores last year which is higher than E Commerce giants like Flipkart & Amazon India revenue.</li>
+						<li>Over 31 crore tickets are booked through BIR every year.
+						<li>BIR also provide I Ticket facility (like E Ticket) which means your ticket will be send by postal after booking through online.</li>
+						<li>On March 1, 2013, BIR recorded highest booking count of 5.02 ticket booking in its life time.
+						Over 1 million people checks PNR status daily in BIR site.</li>
+					</ul>
+			</div>
+			<div id="wait" style="display: none;">
+				<center>
+					<h2><b>Opps! Site is Under Construction.</b></h2>
+					<h3>Please come back soon!</h3>
+					<img src="underconstruction.jpg" width="600px">
+				</center>
+			</div>
+		</div>
+		<div id="contact" style="display: none;">
+			<iframe src="contact.html" style="border: none; width: 100%; height: 1050px;"></iframe>
+		</div>
+		<div class="footer">
+			<img id="footer_img" src="footer_bg.png">
+			<div class="footer_text">COPYRIGTH RAILWAY RESERVATION.2017</div>
+		</div>
+	</div>
+</body>
+</html>
